@@ -50,9 +50,9 @@ checklist
     #tg\.me.*
     #tdesktop.*
     ```
-  * `sudo systemctl start tor@obfs4.service && sudo systemctl enable tor@obfs4.service && journalctl -f -u tor@obfs4.service`
-  * `sudo systemctl start privoxy.service && sudo systemctl enable privoxy.service && journalctl -f -u privoxy.service`
-  * `sudo systemctl start squid.service && sudo systemctl enable squid.service && journalctl -f -u squid.service`
+  * `sudo systemctl enable --now tor@obfs4.service && journalctl -f -u tor@obfs4.service`
+  * `sudo systemctl enable --now privoxy.service && journalctl -f -u privoxy.service`
+  * `sudo systemctl enable --now squid.service && journalctl -f -u squid.service`
   * `/etc/chromium/policies/managed/policy.json`
     ```
     {
