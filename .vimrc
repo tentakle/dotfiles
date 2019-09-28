@@ -99,7 +99,7 @@ set laststatus=2
 
 " Instead of failing a command because of unsaved changes, instead raise a
 " dialogue asking if you wish to save changed files.
-set confirm
+"set confirm
 
 " Use visual bell instead of beeping when doing something wrong
 set visualbell

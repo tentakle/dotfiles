@@ -172,6 +172,8 @@ bar {
 
 default_border none
 hide_edge_borders smart
+exec urxvtd -q -o -f
+#client.focused #4C7899 #1D1F28 #FFFFFF #2E9EF4 #285577
 for_window [class="URxvt"] border normal 1
 for_window [class="URxvt"] title_format "<span font='Iosevka Term Semibold 10'>  %title</span>"
 for_window [class="obs"] move to workspace $ws5
